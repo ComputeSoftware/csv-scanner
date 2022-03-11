@@ -3,7 +3,7 @@
     [clojure.tools.build.api :as b]
     [org.corfield.build :as bb]))
 
-(def lib 'computesoftware/csv-scanner)
+(def lib 'com.computesoftware/csv-scanner)
 (def version (format "0.1.%s" (b/git-count-revs nil)))
 
 (defn jar "Build lib jar." [opts]
